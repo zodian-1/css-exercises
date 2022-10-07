@@ -33,6 +33,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
 }
 
 .close-button {
@@ -63,4 +64,33 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.container {
+  padding: 20px;
+  display: flex;
+}
+
+.icon-container {
+  padding-right: 20px;
+}
+
+.second-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.third-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.third-container .header {
+  font-weight: bold;
+  font-size: large;
+}
+
+.fourth-container {
+  flex-shrink: 1px;
 }
